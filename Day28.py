@@ -1,0 +1,34 @@
+"""
+Application Programming Interface (API):
+    - Web APIs: 
+        - Defined interfaces through which interaction between and enterprise and applications that use it's assets
+        - A set of specifications, such as Hypertext Transfer Protocol (HTTP) request messages, usually in XML or JSON format
+    - Building APIs:
+        - Uses HTTP request methods to GET, PUT, POST, and DELETE data
+        - Eevry application whihc has CRUD operations has an API to create data, to get data, to update or delete data from a database
+        - It is good to understand HTTP protocol and HTTP request and response cycle
+    - HTTP (Hypertext Transfer Protocol):
+        - An established communication protocol between a client and a server
+            - Client: A browser
+            - Server: The place where you access the data
+        - HTTP is a network protocol used to deliver resources, could be files of the WWW, html and image files, query results, etc.
+        - A browser is an HTTP client because it send requests to an HTTP server (Web server), which then sends responses back to the client.
+    - Structure of HTTP:
+        - Uses a client-server model
+        - Client opens a connection and sends a request message to an HTTP server
+        - The HTTP server returns response message which is the requested resources
+        - Once the request --> response cycle is complete the server closes the connection.
+    - Initial Request Line (Status Line)
+        - Three Parts Separated by Spaces:
+            - Method Name (GET, POST, HEAD)
+            - Path of the requested resource
+            - Version of HTTP being used, eg GET/HTTP/1.1
+    - Request Methods:
+        - GET: Used to retreve and get information from the server using a given URL.
+            - Should have no other effect on the data aside from retrieving it
+        - POST: Used to create data and send data to the server
+            - Ex: Creatng a new post, fle upload, etc. using HTML forms
+        - PUT: Replaces all current representatons of the target resource wth the uploaded content
+            - Use it to modify or update our data
+        - DELETE: Removes data
+"""
