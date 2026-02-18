@@ -11,7 +11,7 @@
 ## 🎯 Takeaways
 - Devloped a small **web application** using **Flask**, integrating Python with **HTML/CSS** for front-end functionality  
 - Gained practical experience with **Git** for version control and managing code repositories  
-- Built a **generic database class** to handle CRUD operations, gaining familiarity with database interactions in Python
+- Built a **generic database class** to handle **CRUD** operations, gaining familiarity with database interactions in Python
 - Recreated Python existing classes to reinforce object-oriented design principles 
 - Utilized **Jupyter Notebooks** for structured data analysis, visualization, and documentation  
 
